@@ -25,6 +25,7 @@ https://doi.org/10.6084/m9.figshare.13128950
 * (required) Ensure that `DalgleishHausser2020_setup.m`, `DalgleishHausser2020_plots_main.m` and `DalgleishHausser2020_analysis_main.m` are in the repository's base directory (`~/DalgleishHausser2020Repo/`) as they use this to add all necessary paths. Unless you want to add paths manually then simply make sure that all repository contents (and any raw data downloaded from Figshare) remain somewhere in `~/DalgleishHausser2020Repo/`.
 * (required) [Download processed data from Figshare](https://doi.org/10.6084/m9.figshare.13135505) and ensure that all downloaded files are put in a directory in the repository's base directory.
 * (optional) [Download raw data from Figshare](https://doi.org/10.6084/m9.figshare.13128950) (see _Raw data download and import_ section below for instructions).
+* (optional) `DalgleishHausser2020_setup.m` to import all paths (note this will be done automatically with any of the subsequent steps).
 
 ## Plotting
 `DalgleishHausser2020_plots_main.m` quick access to figure/relevant figure supplement plots. This calls plotting scripts in `~/figureScripts`, the names of which should be self-explanatory.
