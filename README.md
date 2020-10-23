@@ -1,4 +1,5 @@
-# Dalgleish-eLife-2020
+# How many neurons are sufficient for perception of cortical activity?
+## Dalgleish-eLife-2020
 Figure data/code and raw data import/processing code used in:
 
 Dalgleish HWP*, Russell LE*, Packer AM*, Roth A, Gauld OM, Greenstreet F, Thompson EJ, Hausser M (2020). __How many neurons are sufficient for perception of cortical activity?__ _eLife_
