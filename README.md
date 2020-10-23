@@ -42,7 +42,7 @@ Ensure that `DalgleishHausser2020_setup.m`, `DalgleishHausser2020_plots_main.m` 
 ## Data format
 * 1P/2P training data (Figure 1 and supplements) in `DalgleishHausser2020_All1PLearning_raw.mat` and `DalgleishHausser2020_All2PLearning_raw.mat` with relevant variable:
   * `all_bhv`: a struct array where each element is the training data for a given animal. The most relevant fields are `bhv_daily` which contains the training data for each training day, `params` which contains import parameters and `powers` which contains the LED powers in mW (NB these are only present for 1P only training data where LED power is varied. For 1P/2P training data all LED powers are 0.05 mW). 
-* 2P imaging, photostimulation and training data (Figures 2 - 4 and supplements) in `DalgleishHausser2020_imaging_raw.mat`:
+* 2P imaging, photostimulation and training data during number of cells psychometric curve sessions (Figures 2 - 4 and supplements) in `DalgleishHausser2020_imaging_raw.mat`:
   * `session`: a struct array where each element is a single animal, single behavioural session. This has relevant fields:
     * `s2p` which contains Suite2P ROIs and metadata.
     * `targets` which has all target locations for different trial-types (note there are 8: 1 catch trial and 7 stimulus trials; stimulus trials are _stim_type_ 7 and catch trials are _stim_type_ 6).
