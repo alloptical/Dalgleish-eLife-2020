@@ -66,7 +66,7 @@ https://doi.org/10.6084/m9.figshare.13128950
     * `tw_rxn`: cell array of animals' reaction times (numTrials * 1). NB trials with no lick are filled with NaN.
   
 ## Raw data download and import
-As mentioned, this is available on [Figshare](https://doi.org/10.6084/m9.figshare.13128950).
+As mentioned, [rawish data is available on Figshare](https://doi.org/10.6084/m9.figshare.13128950).
   
 Download all .zip files. These contain `sessionDate_animalID` directories containing data from individual psychometric curve sessions (see Figshare description for more details). For current import/processing pipelines to run, these need to be placed in a directory structure somewhere in the DalgleishHausser2020Repo base directory:
 <pre>
