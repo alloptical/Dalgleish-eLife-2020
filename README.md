@@ -4,11 +4,12 @@ Figure data/code and raw data import/processing code used in:
 
 Dalgleish HWP*, Russell LE*, Packer AM*, Roth A, Gauld OM, Greenstreet F, Thompson EJ, Hausser M (2020). __How many neurons are sufficient for perception of cortical activity?__ _eLife_
 
+Data for use with this repository for should be downloaded from:
+
+
 These data were collected from mice at various stages through being trained to report optogenetic activation of barrel cortex (both 1P and 2P). Final experiments tested animal behaviour and neuronal responses in mice tasked with reporting perception of two-photon optogenetic activation of varying numbers of cortical excitatory neurons by licking for sucrose rewards. See paper for more details.
 
-Data at an intermediate processing stage sufficient for exploration and plotting should be downloaded from [Figshare](https://doi.org/10.6084/m9.figshare.13128950)
-
-Extracted calcium imaging data (Suite2p ROIs and traces) and photostimulation data can also be found on [Figshare](https://doi.org/10.6084/m9.figshare.13128950) along with some description of data format. Raw calcium imaging movies (~1TB) are available upon reasonable request.
+Raw extracted calcium imaging data (Suite2p ROIs and traces) and photostimulation data can also be found on [Figshare](https://doi.org/10.6084/m9.figshare.13128950) along with some description of data format. Raw calcium imaging movies (~1TB) are available upon reasonable request.
 
 All code is written by [Henry Dalgleish](https://github.com/hwpdalgleish) and [Lloyd Russell](https://github.com/llerussell), except for code in `~/utils/external`.
 
