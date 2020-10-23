@@ -17,7 +17,7 @@ If anything is unclear please contact hwpdalgleish@gmail.com.
 
 If you use these data in a paper, please cite the above Dalgleish et al. 2020 (eLife) paper and reference this Github repo:<br/>
 https://github.com/alloptical/Dalgleish-eLife-2020<br/>
-and this Figshare database:<br/>
+and this Figshare databases:<br/>
 https://doi.org/10.6084/m9.figshare.13128950
 
 ## Setup
