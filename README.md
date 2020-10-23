@@ -5,14 +5,17 @@ Dalgleish HWP*, Russell LE*, Packer AM*, Roth A, Gauld OM, Greenstreet F, Thomps
 
 These data were collected from mice at various stages through being trained to report optogenetic activation of barrel cortex (both 1P and 2P). Final experiments tested animal behaviour and neuronal responses in mice tasked with reporting perception of two-photon optogenetic activation of varying numbers of cortical excitatory neurons by licking for sucrose rewards. See paper for more details.
 
-This repository includes data at an intermediate processing stage sufficient for exploration and plotting. Extracted calcium imaging data (Suite2p ROIs and traces) and photostimulation data can be found on [Figshare](https://doi.org/10.6084/m9.figshare.13128950) along with some data format instructions. Raw calcium imaging movies (~1TB) are available upon reasonable request.
+This repository includes data at an intermediate processing stage sufficient for exploration and plotting. Extracted calcium imaging data (Suite2p ROIs and traces) and photostimulation data can be found on [Figshare](https://doi.org/10.6084/m9.figshare.13128950) along with some description of data format. Raw calcium imaging movies (~1TB) are available upon reasonable request.
 
 All code is written by [Henry Dalgleish](https://github.com/hwpdalgleish) and [Lloyd Russell](https://github.com/llerussell), except for code in `~/utils/external`.
 
-If you use these data in a paper, please cite Dalgleish et al. 2020 (eLife) and reference this Github repo:<br/>
+If you use these data in a paper, please cite the above Dalgleish et al. 2020 (eLife) paper and reference this Github repo:<br/>
 https://github.com/alloptical/Dalgleish-eLife-2020<br/>
 and this Figshare database:<br/>
 https://doi.org/10.6084/m9.figshare.13128950
+
+## Setup
+Ensure that `DalgleishHausser2020_setup.m`, `DalgleishHausser2020_plots_main.m` and `DalgleishHausser2020_analysis_main.m` are in the repository's base directory (`~/DalgleishHausser2020Repo/`) as they use this to add all necessary paths. Unless you want to add paths manually then simply make sure that all repository contents (and any raw data downloaded from Figshare) remain somewhere in `~/DalgleishHausser2020Repo/`.
 
 ## Plotting
 `DalgleishHausser2020_plots_main.m` quick access to figure/relevant figure supplement plots. This calls plotting scripts in `~/figureScripts`, the names of which should be self-explanatory.
@@ -49,3 +52,21 @@ https://doi.org/10.6084/m9.figshare.13128950
     * `tw_response`: cell array of animals' behavioural responses (numTrials * 1).
     * `tw_rxn`: cell array of animals' reaction times (numTrials * 1). NB trials with no lick are filled with NaN.
   
+## Raw data download and import
+As mentioned, this is available on [Figshare](https://doi.org/10.6084/m9.figshare.13128950).
+  
+Download all .zip files. These contain `sessionDate_animalID` directories containing data from individual psychometric curve sessions (see Figshare description for more details). For current import/processing pipelines to run, these need to be placed in a directory structure somewhere in the DalgleishHausser2020Repo base directory:
+<pre>
+├── ~/DalgleishHausser2020Repo/rawDataDirectory/
+    ├── 20191203_L541/
+    |    └── experimentDataFile1
+    |    └── experimentDataFile2
+    ├── 20191009_L544/
+    |    └── experimentDataFile1
+    |    └── experimentDataFile2
+    . etc.
+</pre>
+
+Files were zipped on a mac and should hopefully unzip fine onto a mac (i.e. myDirectory/ --> myDirectory.zip --> myDirectory/), however sometimes on Windows this can get mangled (i.e. myDirectory/ --> myDirectory.zip --> __myDirectory/__ myDirectory/). To avoid this either:
+* Put all .zip files into a directory and pass to `unzipDirectories.m` (`~/DalgleishHausser2020/utils/import/`) to unzip into correct structure.
+* Manually unzip and remove any added upstream directories.
