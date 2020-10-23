@@ -5,7 +5,8 @@ Figure data/code and raw data import/processing code used in:
 Dalgleish HWP*, Russell LE*, Packer AM*, Roth A, Gauld OM, Greenstreet F, Thompson EJ, Hausser M (2020). __How many neurons are sufficient for perception of cortical activity?__ _eLife_
 
 Data for use with this repository for should be downloaded from:
-
+https://doi.org/10.6084/m9.figshare.13135505
+https://figshare.com/projects/How_many_neurons_are_sufficient_for_perception_of_cortical_activity_/91031
 
 These data were collected from mice at various stages through being trained to report optogenetic activation of barrel cortex (both 1P and 2P). Final experiments tested animal behaviour and neuronal responses in mice tasked with reporting perception of two-photon optogenetic activation of varying numbers of cortical excitatory neurons by licking for sucrose rewards. See paper for more details.
 
@@ -18,11 +19,12 @@ If anything is unclear please contact hwpdalgleish@gmail.com.
 If you use these data in a paper, please cite the above Dalgleish et al. 2020 (eLife) paper and reference this Github repo:<br/>
 https://github.com/alloptical/Dalgleish-eLife-2020<br/>
 and this Figshare databases:<br/>
+https://doi.org/10.6084/m9.figshare.13135505
 https://doi.org/10.6084/m9.figshare.13128950
 
 ## Setup
 * (required) Ensure that `DalgleishHausser2020_setup.m`, `DalgleishHausser2020_plots_main.m` and `DalgleishHausser2020_analysis_main.m` are in the repository's base directory (`~/DalgleishHausser2020Repo/`) as they use this to add all necessary paths. Unless you want to add paths manually then simply make sure that all repository contents (and any raw data downloaded from Figshare) remain somewhere in `~/DalgleishHausser2020Repo/`.
-* (required) [Download processed data from Figshare](https://doi.org/10.6084/m9.figshare.13128950). Just ensure that all downloaded files are put in a directory in the repository's base directory.
+* (required) [Download processed data from Figshare](https://doi.org/10.6084/m9.figshare.13135505). Just ensure that all downloaded files are put in a directory in the repository's base directory.
 * (optional) [Download raw data from Figshare](https://doi.org/10.6084/m9.figshare.13128950) (see _Raw data download and import_ section below for instructions).
 
 ## Plotting
