@@ -79,6 +79,7 @@ Download all .zip files. These contain `sessionDate_animalID` directories contai
     |    └── experimentDataFile2
     . etc.
 </pre>
+and then this raw data directory (e.g. `~/DalgleishHausser2020Repo/rawDataDirectory/`) should be assigned to the `base_dir` variable in `DalgleishHausser2020_importProcessing.m`.
 
 Files were zipped on a mac and should hopefully unzip fine onto a mac (i.e. myDirectory/ --> myDirectory.zip --> myDirectory/), however sometimes on Windows this can get mangled (i.e. myDirectory/ --> myDirectory.zip --> __myDirectory/__ myDirectory/). To avoid this either:
 * Put all .zip files into a directory and pass to `unzipDirectories.m` (`~/DalgleishHausser2020/utils/import/`) to unzip into correct structure.
