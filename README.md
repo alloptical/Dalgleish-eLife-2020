@@ -13,7 +13,7 @@ Raw extracted calcium imaging data (Suite2p ROIs and traces) and photostimulatio
 
 All code is written by [Henry Dalgleish](https://github.com/hwpdalgleish) and [Lloyd Russell](https://github.com/llerussell), except for code in `~/utils/external`.
 
-If anything is unclear please contact hwpdalgleish@gmail.com
+If anything is unclear please contact hwpdalgleish@gmail.com.
 
 If you use these data in a paper, please cite the above Dalgleish et al. 2020 (eLife) paper and reference this Github repo:<br/>
 https://github.com/alloptical/Dalgleish-eLife-2020<br/>
